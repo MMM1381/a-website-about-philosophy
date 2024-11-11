@@ -2,14 +2,50 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #333;
 }
 
 header {
+    position:fixed;
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding-right:100%;
+    text-align: center;
 }
 
+.banner {
+    max-width:100%;
+}
+.welcome{
+    text-align: center;
+}
+.banner .welcome{
+    background:gray;
+    color: white;
+    padding: 30px;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+  } 
+  .banner .welcome span{
+    font-size: 1.4em;
+  }
+
+  #socrat{
+    display:inline-block;
+    position: absolute;
+    left:30%;
+    top:75%;
+  }
+
+nav{
+    position: relative;
+    text-align: center;
+    position:sticky;
+    margin:100px;
+
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -18,10 +54,31 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 150px;
+    padding: 50px;
+    background-color: goldenrod;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
+}
+
+main{
+background-color: slategrey;
+line-height: 25px;
+letter-spacing:3px;
+column-count: 2;
+
+
+}
+.boom span{
+    background:yellow;
+    color: red;
+    /* padding: 30px; */
+    /* font-size: 1.4em; */
+  }
+  
+article{
+    color:white;
 }
